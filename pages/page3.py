@@ -18,7 +18,7 @@ dash.register_page(__name__,
                    title='Doctors Performance'
 )
 #load the data--------------------------------------------------------------------------------------
-df=pd.read_excel('data\dataset.xlsx')
+df=pd.read_excel('./data/dataset.xlsx')
 
 #------General Hospital Report ------------------------------------------------------------
 #convert the date to datetime format-----------------------------------------------------------------------
