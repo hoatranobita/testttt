@@ -15,7 +15,7 @@ import pathlib
 import os
 
 #load the data--------------------------------------------------------------------------------------
-df=pd.read_excel('data\dataset.xlsx')
+df=pd.read_excel('./data/dataset.xlsx')
 #convert the date to datetime format-----------------------------------------------------------------------
 df['Date']=pd.to_datetime(df['Date'])
 #extract the month
